@@ -5,3 +5,5 @@
 .time-adjust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-bottom:8px}.time-adjust.seconds{grid-template-columns:1fr 1fr 1.5fr 1fr 1fr}.time-adjust button{padding:10px 2px;font-size:12px}.time-adjust #now{color:var(--gold);border-color:#816b3e}
 
 .brand{display:flex;align-items:center;gap:16px}.brand img{width:125px;height:78px;object-fit:contain}.brand span{margin:0}header{min-height:112px}@media(max-width:550px){.brand img{width:88px;height:58px}.brand span{font-size:8px;max-width:95px}#clock{font-size:12px}}
+
+.hero{padding:26px 0 18px}.hero h1{font-size:clamp(22px,3vw,28px);letter-spacing:0;margin:0 0 8px}.hero p{font-size:13px;margin:0}#clear{color:#d8bc83}
